@@ -1,11 +1,14 @@
-<!DOCTYPE HTML>
+
+ <!DOCTYPE HTML>
 <html>
     <head>
    <style>
-     body {background:white; 
+     body {background:black; 
 font-size:20px;
-display:span;
+display:block;
 align-items:center;
+font-weight: 2px;
+color:white;
 }
 
             h2 {position: relative;
@@ -21,7 +24,7 @@ align-items:center;
     left:0;
     width:50%;
     height:100%;
-    color:blue;
+    color:yellow;
     -webkit-text-stroke:0px blue;
     border-right: 2px solid green;
     overflow: hidden;
@@ -36,9 +39,23 @@ a {
   padding-right: 20px; /*sets 'padding'*/
   line-height: 50px; /*for this, it sets vertical alignment*/
 }
-a:hover {
-  background: yellow; /*sets background colour*/
+.container {
+  position: relative;
+  align-content: centered;
+  align-items: centered;
 }
+/* Bottom right text */
+.text-block {
+position: absolute;
+bottom: 90px;
+right: 30%;
+background-color: none;
+color: black;
+padding-left: 40px;
+padding-right: 20px;
+}
+  
+
     @keyframes animate
     {
         0%,10%,100%
@@ -46,34 +63,47 @@ a:hover {
         70%,90%
         {width:100%;}
     }
-.demobox {
-  background-color:  ;} 
-.boxed {
-  border: 2px solid green ;
-}
+
    </style>     
     </head>
     <body>
         
-<img src="ent logo.jpg"
-alt="Snow" style="width:100%;height:70px;">
+<img src="hplogo.jpg"
+alt="Snow" style="width:100%;">
  
    
         <h2 data-text="created by elpadrino technology">created by ELPADRINO TECHNOLOGY</h2>
   
-
-    
- <a href="music.html">Find the latest music updates here by clicking here
-</a>
-
 <br>
-    <a href="movies.html">Movies</a>
+   <div class="container">
+<img src="wpy4.png"
+alt="Norway" style="width:100%;"height:50px;>
+  <div class="text-block">
+<h4>Looking for the latest music releaseas?</h4>
+<p><a href="music.html">Find the latest music updates here by clicking here
+</a></p>
+
+  </div>
+</div> 
+
+
+<br><br>
+
+   <div class="container">
+<img src="wpy4.png"
+alt="Norway" style="width:100%;"height:50px;>
+  <div class="text-block">
+<h4>Looking for the latest movie releaseas?</h4>
+<p><a href="music.html">Find the latest movie updates here by clicking here
+</a></p></div>
 <br>
 
-<p style="color:black;font-size:20px; border:3px blue;" ><strong>LATEST NEWS</strong></p>
+<p style="color:white;font-size:20px; border:3px blue;" ><strong>LATEST NEWS</strong></p>
 <p>
-    <b>Below are the most interesting news of this week</b>
+    <b>Below are the Top interesting Events from this week</b>
 </p>
     </body>
-</html>
+</html
+   
+    
 
